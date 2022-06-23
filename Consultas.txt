@@ -1,0 +1,9 @@
+SENTENCIAS SQL
+
+1. Cuál es el producto que más stock tiene.
+
+	SELECT *,MAX(cantidad) FROM `productos`
+
+2. Cuál es el producto más vendido.
+
+	SELECT MAX(productos.nombreProducto) AS Producto,ventas.cantidad AS 'Cantidad Vendida' FROM productos 		INNER JOIN ventas ON productos.id = ventas.idProducto
