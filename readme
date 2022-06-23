@@ -1,0 +1,25 @@
+PASOS PARA LA INSTALACION DEL SISTEMA
+
+1. Descargue Xampp para la ejecucion de manera local
+2. Una vez descargado va a proceder a la instalacion,ejecute el archivo que descargo de formarto(.exe) y siga
+   las instruccciones que alli le indican hasta que finalice la instalacion
+3. Dirijase al navegador de su preferencia e ingrese la siguiente direccion https://github.com/jsebastianrincon/pruebaTecnicaIMS
+4. Una vez en dicha ruta presione el boton code de color verde, al hacer eso se le va a desplegar un menu
+5. En dicho menu seleccione la opcion Download Zip
+6. Se iniciara una ventana emergente,alli se va a dirigir la ruta C/xampp/htdocs y en el nombre del archivo
+   elimine la palabra -main
+7. Una vez descargado va a proceder a descomprimir el archivo el cual le va a crear una carpeta con el nombre
+   del archivo que descargo
+8. Para la instalacion de la base de datos descargue el archivo adjunto que tiene como nombre 'pruebaims'
+9. En el caso de Xampp dirijase a la ruta http://127.0.0.1/phpmyadmin/index.php
+10. Seleccione el apartado Bases de datos alli encontrara unos campos donde dira 'Nombre de la base de datos',
+    alli ingresara el nombre pruebaims y dara crear
+11. Una vez creado lo enviara a una vista donde hay un campo que dice nombre y en la parte superior una serie
+    de opciones,busque aquella que diga "Importar"
+12. Se le abrira una nueva vista con el titulo "Importando en la base de datos pruebaims" busque el boton
+    que dice Selecciona Archivo y de clic alli
+13. Al dar clic alli se le abrira una ventana del explorador de archivos, y busque el archivo 'pruebaims.sql' en
+    la ruta donde descargo el archivo y presione el boton Abrir
+14. Una vez realizado lo anterior,se le cargara el nombre del archivo,a continuacion dirijase al final de dicha
+    ventana y presion continuar, de esta manera conseguira importar la base de datos
+15. Ahora dirijase a su navegador e ingrese la ruta http://127.0.0.1/pruebaTecnicaIMS/view/agregarProducto y podra empezar usar el sistema
